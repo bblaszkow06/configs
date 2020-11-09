@@ -6,6 +6,9 @@ antigen bundle archlinux
 antigen bundle mix
 antigen bundle cargo
 
+# Jump to "frecent" directories
+antigen bundle agkozak/zsh-z
+
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 

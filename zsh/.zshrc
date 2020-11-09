@@ -41,7 +41,10 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 
 # enable asdf
 . $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
+# add asdf completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# run compinit
+autoload -Uz compinit && compinit
 
 # Fix Elixir sytem version under asdf
 export MIX_HOME="$HOME/.mix"
