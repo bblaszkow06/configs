@@ -22,6 +22,8 @@ set mouse=a
 " diagnostics appear/become resolved.
 set signcolumn=yes
 
+set showtabline=2
+
 let g:python_host_prog = '/usr/bin/python2'
 let g:python3_host_prog = '/usr/bin/python3'
 filetype plugin indent on
@@ -40,8 +42,10 @@ Plug 'Yggdroot/indentLine'
 
 "Navigation
 Plug 'easymotion/vim-easymotion'
+Plug 'chaoren/vim-wordmotion'
 Plug 'justinmk/vim-sneak'
 Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
 "
 "Language tools
@@ -66,7 +70,7 @@ Plug 'junegunn/gv.vim'
 "Plug 'zchee/deoplete-clang', { 'for': ['c', 'cpp'] }
 Plug 'justinmk/vim-syntax-extra', { 'for': ['c', 'cpp'] }
 Plug 'mesonbuild/meson', { 'rtp': 'syntax-highlighting/vim'}
-"Plug 'arrufat/vala.vim'
+Plug 'arrufat/vala.vim', { 'for': 'vala' }
 
 "Vim
 Plug 'Shougo/neco-vim', { 'for': 'vim' }

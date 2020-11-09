@@ -1,60 +1,62 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "terminal.integrated.fontFamily": "Source Code Pro",
-    "terminal.integrated.fontSize": 12,
-    "editor.fontFamily": "'Fira Code'",
-    "editor.fontLigatures": true,
-    "editor.formatOnType": true,
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 120,
-    "editor.rulers": [
-        120
-    ],
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "editor.lineNumbers": "relative",
-    "vim.easymotion": true,
-    "vim.sneak": true,
-    "vim.neovimPath": "/usr/bin/nvim",
-    "extensions.ignoreRecommendations": false,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true,
-        "suppressWelcomeNotice": true
-    },
-    "markdown-pdf.executablePath": "/usr/bin/chromium",
-    "workbench.startupEditor": "newUntitledFile",
-    "breadcrumbs.enabled": true,
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "gitlens.views.compare.location": "scm",
-    "gitlens.views.search.location": "scm",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
-    "vim.enableNeovim": true,
-    "editor.renderControlCharacters": true,
-    "workbench.activityBar.visible": true,
-    "erlang.codeLensEnabled": true,
-    "editor.formatOnSave": true,
-    "editor.acceptSuggestionOnEnter": "off",
-    "workbench.colorTheme": "Base16 Dark Solarized",
-    "python.jediEnabled": false,
-    "files.insertFinalNewline": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "elixirLS.dialyzerFormat": "dialyxir_long",
-    "elixirLS.fetchDeps": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.tabSize": 2,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.fontSize": 12,
-    "window.zoomLevel": -0.2
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontSize": 12,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.formatOnType": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.rulers": [120],
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.lineNumbers": "relative",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "extensions.ignoreRecommendations": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  "markdown-pdf.executablePath": "/usr/bin/chromium",
+  "workbench.startupEditor": "newUntitledFile",
+  "breadcrumbs.enabled": true,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "gitlens.views.compare.location": "scm",
+  "gitlens.views.search.location": "scm",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "vim.enableNeovim": true,
+  "editor.renderControlCharacters": true,
+  "workbench.activityBar.visible": true,
+  "erlang.codeLensEnabled": true,
+  "editor.formatOnSave": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "workbench.colorTheme": "Base16 Dark Solarized",
+  "python.jediEnabled": false,
+  "files.insertFinalNewline": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "elixirLS.dialyzerFormat": "dialyxir_long",
+  "elixirLS.fetchDeps": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 13,
+  "window.zoomLevel": 0,
+  "mesonbuild.configureOnOpen": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
